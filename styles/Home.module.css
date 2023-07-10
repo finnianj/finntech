@@ -7,6 +7,22 @@
   align-items: center;
 }
 
+.header{
+  width: 100%;
+  display: flex;
+}
+
+.headerLeft{
+  display: flex;
+  flex-direction: column;
+}
+
+.headerLeft h1{
+  font-size: 60px;
+  line-height: 70px;
+}
+
+
 .title a {
   color: #0070f3;
   text-decoration: none;

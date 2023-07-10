@@ -1,20 +1,44 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
+import styles from '../styles/Home.module.css';
+import Navbar from '../components/navbar';
+
 
 
 export default function Home() {
   return (
+    <>
+    <Navbar />
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
 
-      <p>
-      Welcome to Finntech
+    <header className={styles.header}>
+      <div className={styles.headerLeft}>
+        <h1 className={styles.headerTitle}>
+          Empowering Your Journey
+        </h1>
+        <p className={styles.headerDescription}>
+          At Finntech, we are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals. Whether you're an individual looking to optimize your personal finances or a business owner seeking growth opportunities, we have the tools and expertise to support you every step of the way.
+        </p>
+      </div>
+        <Image
+          priority
+          src="/images/finance.jpeg"
+          className={styles.headerImage}
+          height={500}
+          width={500}
+          alt=""
+        />
+    
+    </header>
 
-Empowering Your Financial Journey
+      <p>
+
 
 At Finntech, we are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals. Whether you're an individual looking to optimize your personal finances or a business owner seeking growth opportunities, we have the tools and expertise to support you every step of the way.
 
@@ -40,5 +64,6 @@ Ready to experience the future of finance? Sign up for a free account and discov
       </p>
 
     </Layout>
+    </>
   );
 }

@@ -4,7 +4,7 @@
   align-items: center;
   padding: 20px;
   height: 80px;
-  border: 1px solid black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .logo a {

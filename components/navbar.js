@@ -28,7 +28,7 @@ export default function Navbar() {
           Security
         </Link>
       </div>
-      <div className={styles.burgerMenu} onClick={handleMenuToggle}>
+      <div className={`${styles.burgerMenu} ${isMenuOpen ? styles.open : ''} ${styles.rotateX}`} onClick={handleMenuToggle}>
         <div className={styles.bar}></div>
         <div className={styles.bar}></div>
         <div className={styles.bar}></div>
@@ -36,9 +36,6 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className={styles.fullScreenMenu}>
           <div className={styles.menuContent}>
-            <div className={styles.closeButton} onClick={handleMenuToggle}>
-              X
-            </div>
             <Link href="/services">
               Services
             </Link>

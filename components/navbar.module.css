@@ -34,6 +34,21 @@
   transition: all 0.3s ease-in-out;
 }
 
+.rotateX {
+  transition: transform 0.3s ease-in-out;
+}
+
+.rotateX.open .bar:nth-child(1) {
+  transform: rotate(45deg) translateY(11px);
+}
+
+.rotateX.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.rotateX.open .bar:nth-child(3) {
+  transform: rotate(-45deg) translateY(-11px);
+}
 
 .fullScreenMenu {
   position: fixed;

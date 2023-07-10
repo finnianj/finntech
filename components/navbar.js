@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import styles from './Navbar.module.css'; // CSS module for styling
+import styles from './navbar.module.css';
+import React, { useState } from 'react';
 
 export default function Navbar() {
 
@@ -13,18 +14,18 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.logo}>
         <Link href="/">
-          <a>Finntech</a>
+          Finntech
         </Link>
       </div>
       <div className={`${styles.menu} ${isMenuOpen ? styles.open : ''}`}>
         <Link href="/services">
-          <a>Services</a>
+          Services
         </Link>
         <Link href="/pricing">
-          <a>Pricing and Plans</a>
+          Pricing and Plans
         </Link>
         <Link href="/security">
-          <a>Security</a>
+          Security
         </Link>
       </div>
       <div className={styles.burgerMenu} onClick={handleMenuToggle}>
@@ -35,5 +36,3 @@ export default function Navbar() {
     </nav>
   );
 };
-
-

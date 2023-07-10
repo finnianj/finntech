@@ -2,10 +2,14 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
+import Navbar from '../components/navbar';
+
 
 
 export default function Home() {
   return (
+    <>
+    <Navbar />
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
@@ -40,5 +44,6 @@ Ready to experience the future of finance? Sign up for a free account and discov
       </p>
 
     </Layout>
+    </>
   );
 }

@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import styles from './navbar.module.css';
 import React, { useState } from 'react';
+import Link from 'next/link';
+import styles from './navbar.module.css'; // CSS module for styling
 
 export default function Navbar() {
 
@@ -17,7 +17,7 @@ export default function Navbar() {
           Finntech
         </Link>
       </div>
-      <div className={`${styles.menu} ${isMenuOpen ? styles.open : ''}`}>
+      <div className={styles.menu}>
         <Link href="/services">
           Services
         </Link>
@@ -29,10 +29,28 @@ export default function Navbar() {
         </Link>
       </div>
       <div className={styles.burgerMenu} onClick={handleMenuToggle}>
-        <div className={`${styles.bar} ${isMenuOpen ? styles.close : ''}`}></div>
-        <div className={`${styles.bar} ${isMenuOpen ? styles.close : ''}`}></div>
-        <div className={`${styles.bar} ${isMenuOpen ? styles.close : ''}`}></div>
+        <div className={styles.bar}></div>
+        <div className={styles.bar}></div>
+        <div className={styles.bar}></div>
       </div>
+      {isMenuOpen && (
+        <div className={styles.fullScreenMenu}>
+          <div className={styles.menuContent}>
+            <div className={styles.closeButton} onClick={handleMenuToggle}>
+              X
+            </div>
+            <Link href="/services">
+              Services
+            </Link>
+            <Link href="/pricing">
+              Pricing and Plans
+            </Link>
+            <Link href="/security">
+              Security
+            </Link>
+          </div>
+        </div>
+      )}
     </nav>
   );
 };

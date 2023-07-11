@@ -10,16 +10,26 @@
 .header{
   width: 100%;
   display: flex;
+  background-image: url('/images/future.png');
+  background-size: cover;
+  /* background-position-y: -250px; */
 }
 
 .headerLeft{
   display: flex;
   flex-direction: column;
+  width: 50%;
+  border: 1px solid black;
+  margin-left: 3vw;
 }
 
 .headerLeft h1{
   font-size: 60px;
   line-height: 70px;
+}
+
+.headerRight{
+  width: 50%;
 }
 
 

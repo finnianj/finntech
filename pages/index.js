@@ -17,11 +17,19 @@ export default function Home() {
     <header className={styles.header} style={{height: 'calc(100vh - 80px)'}}>
       <div className={styles.headerLeft}>
         <h1 className={styles.headerTitle}>
-          Empowering Your Journey
+          Empowering Your Future
         </h1>
         <p className={styles.headerDescription}>
-          At Finntech, we are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals. Whether you're an individual looking to optimize your personal finances or a business owner seeking growth opportunities, we have the tools and expertise to support you every step of the way.
+          At Finntech, we are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals.
         </p>
+        <div className={styles.headerButtons}>
+          <div className={utilStyles.blueButton}>
+            <Link href=''>Get Started</Link>
+          </div>
+          <div className={utilStyles.whiteButton}>
+            <Link href=''>Learn More</Link>
+          </div>
+        </div>
       </div>
 
       <div className={styles.headerRight}>

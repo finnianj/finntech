@@ -17,11 +17,17 @@
   /* background-position-y: -250px; */
 }
 
+.headerDescription{
+  width: 80%;
+  color: #666;
+
+}
+
 .headerLeft{
   display: flex;
   flex-direction: column;
-  width: 50%;
-  border: 1px solid black;
+  justify-content: center;
+  width: 70%;
   margin-left: 3vw;
 }
 
@@ -32,6 +38,13 @@
 
 .headerRight{
   width: 50%;
+}
+
+.headerButtons{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 700;
 }
 
 

@@ -50,3 +50,17 @@
 .lightText {
   color: #666;
 }
+
+.blueButton{
+  color: white;
+  background-color: #0070f3;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.whiteButton{
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 1px solid black;
+}

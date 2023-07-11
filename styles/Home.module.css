@@ -10,16 +10,51 @@
 .header{
   width: 100%;
   display: flex;
+  background-image: url('/images/future.png');
+  background-size: cover;
+  margin-top: 80px;
+  height: fit-content;
+  padding: 10px;
+
+  /* background-position-y: -250px; */
+}
+
+.headerDescription{
+  width: 80%;
+  color: #666;
+
 }
 
 .headerLeft{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin-left: 3vw;
 }
 
 .headerLeft h1{
   font-size: 60px;
   line-height: 70px;
+  margin: 0;
+}
+
+.headerRight{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.headerButtons{
+  margin-top: 20px;
+  display: flex;
+  font-weight: 700;
+  flex-wrap: wrap;
+}
+
+.headerButtons > * {
+  margin: 10px;
 }
 
 
@@ -103,5 +138,13 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  .headerLeft h1{
+    font-size: 50px;
+  }
+
+  .headerDescription{
+    width: 100%;
   }
 }

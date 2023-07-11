@@ -12,29 +12,29 @@ export default function Home() {
   return (
     <>
     <Navbar />
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
 
-    <header className={styles.header}>
+
+    <header className={styles.header} style={{minHeight: 'calc(100vh - 80px)'}}>
       <div className={styles.headerLeft}>
         <h1 className={styles.headerTitle}>
-          Empowering Your Journey
+          Empowering Your Future
         </h1>
         <p className={styles.headerDescription}>
-          At Finntech, we are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals. Whether you're an individual looking to optimize your personal finances or a business owner seeking growth opportunities, we have the tools and expertise to support you every step of the way.
+          At Finntech, we are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals.
         </p>
+        <div className={styles.headerButtons}>
+          <div className={utilStyles.blueButton}>
+            <Link href=''>Get Started</Link>
+          </div>
+          <div className={utilStyles.whiteButton}>
+            <Link href=''>Learn More</Link>
+          </div>
+        </div>
       </div>
-        <Image
-          priority
-          src="/images/finance.jpeg"
-          className={styles.headerImage}
-          height={500}
-          width={500}
-          alt=""
-        />
-    
+
+      <div className={styles.headerRight}>
+      </div>
+
     </header>
 
       <p>
@@ -63,7 +63,7 @@ Join the Finntech Community Today
 Ready to experience the future of finance? Sign up for a free account and discover the endless possibilities that Finntech has to offer. Our dedicated team of financial experts is here to support you, providing unparalleled customer service and guidance along your financial journey. Don't miss out — start your adventure with Finntech today.
       </p>
 
-    </Layout>
+
     </>
   );
 }

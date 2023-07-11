@@ -94,9 +94,23 @@
 }
 
 .card p {
+  color: #666;
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.5;
+}
+
+.card li{
+  list-style: none;
+}
+
+.card hr {
+  color: #666;
+}
+
+.faIcon{
+  margin-right: 10px;
+  color: #0070f3;
 }
 
 .logo {

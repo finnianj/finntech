@@ -5,13 +5,22 @@ import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/navbar';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Home() {
   return (
     <>
     <Navbar />
+
+    <Head>
+      <Link
+        href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+        rel='stylesheet'
+      >
+      </Link>
+    </Head>
 
 
     <header className={styles.header}>
@@ -46,7 +55,18 @@ export default function Home() {
         <p>
           The Finntech Standard Account offers essential banking features for everyday financial needs. With this account, users can enjoy convenient access to their funds, perform basic transactions, and manage their finances through a user-friendly mobile app.
         </p>
+        <br></br>
+        <hr></hr>
+        <br></br>
+        <ul>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>On-demand Issuing</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Push Provisioning for Digital Payments</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Temporary Virtual until Physical arrives</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>KYC included</li>
+        </ul>
       </div>
+
+
       <div className={styles.card}>
         <h3>Premium</h3>
         <p>

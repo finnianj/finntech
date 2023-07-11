@@ -49,7 +49,6 @@
 .headerButtons{
   margin-top: 20px;
   display: flex;
-  justify-content: space-evenly;
   font-weight: 700;
   flex-wrap: wrap;
 }
@@ -139,5 +138,13 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  .headerLeft h1{
+    font-size: 50px;
+  }
+
+  .headerDescription{
+    width: 100%;
   }
 }

@@ -20,7 +20,7 @@ export default function Home() {
           Empowering Your Future
         </h1>
         <p className={styles.headerDescription}>
-          At Finntech, we are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals.
+          We are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals.
         </p>
         <div className={styles.headerButtons}>
           <div className={utilStyles.blueButton}>

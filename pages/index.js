@@ -5,7 +5,8 @@ import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/navbar';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Home() {
@@ -13,17 +14,25 @@ export default function Home() {
     <>
     <Navbar />
 
+    <Head>
+      <Link
+        href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+        rel='stylesheet'
+      >
+      </Link>
+    </Head>
 
-    <header className={styles.header} style={{minHeight: 'calc(100vh - 80px)'}}>
+
+    <header className={styles.header}>
       <div className={styles.headerLeft}>
-        <h1 className={styles.headerTitle}>
+        <h1>
           Empowering Your Future
         </h1>
         <p className={styles.headerDescription}>
-          At Finntech, we are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals.
+          We are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals.
         </p>
         <div className={styles.headerButtons}>
-          <div className={utilStyles.blueButton}>
+          <div className={utilStyles.blackButton}>
             <Link href=''>Get Started</Link>
           </div>
           <div className={utilStyles.whiteButton}>
@@ -37,10 +46,43 @@ export default function Home() {
 
     </header>
 
+    <section className={utilStyles.container}>
+      <div className={utilStyles.headingXl}>Streamlined Solutions for Financial Success</div>
+    </section>
+    <section className={utilStyles.container}>
+      <div className={styles.card}>
+        <h3>Standard</h3>
+        <p>
+          The Finntech Standard Account offers essential banking features for everyday financial needs. With this account, users can enjoy convenient access to their funds, perform basic transactions, and manage their finances through a user-friendly mobile app.
+        </p>
+        <br></br>
+        <ul>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>On-demand Issuing</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Push Provisioning for Digital Payments</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Temporary Virtual until Physical arrives</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>KYC included</li>
+        </ul>
+      </div>
+
+
+      <div className={styles.card}>
+        <h3>Premium</h3>
+        <p>
+        Elevate your banking experience with the Finntech Premium Account. Designed for discerning customers, this account provides a range of exclusive benefits, including personalized financial advice, enhanced security features, priority customer support, and access to premium rewards and discounts.
+        </p>
+        <br></br>
+        <ul>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>On-demand Issuing</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Marketing Support</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Cardholder Benefits Program</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Cashback Rewards Program</li>
+        </ul>
+      </div>
+    </section>
+
       <p>
 
 
-At Finntech, we are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals. Whether you're an individual looking to optimize your personal finances or a business owner seeking growth opportunities, we have the tools and expertise to support you every step of the way.
 
 Why Choose Finntech?
 

@@ -14,16 +14,16 @@ export default function Home() {
     <Navbar />
 
 
-    <header className={styles.header} style={{minHeight: 'calc(100vh - 80px)'}}>
+    <header className={styles.header}>
       <div className={styles.headerLeft}>
-        <h1 className={styles.headerTitle}>
+        <h1>
           Empowering Your Future
         </h1>
         <p className={styles.headerDescription}>
           We are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals.
         </p>
         <div className={styles.headerButtons}>
-          <div className={utilStyles.blueButton}>
+          <div className={utilStyles.blackButton}>
             <Link href=''>Get Started</Link>
           </div>
           <div className={utilStyles.whiteButton}>
@@ -37,10 +37,14 @@ export default function Home() {
 
     </header>
 
+    <section className={utilStyles.container}>
+
+      <div className={utilStyles.headingXl}>Streamlined Solutions for Financial Success</div>
+    </section>
+
       <p>
 
 
-At Finntech, we are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals. Whether you're an individual looking to optimize your personal finances or a business owner seeking growth opportunities, we have the tools and expertise to support you every step of the way.
 
 Why Choose Finntech?
 

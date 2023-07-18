@@ -72,7 +72,7 @@ export default function Home() {
           </div>
           <div className={styles.cardFees}>
             <h5>€0</h5>
-            <p><em>ATM withdrawal fee</em></p>
+            <p><em>ATM withdrawal fee at partner networks</em></p>
           </div>
           <div className={styles.cardFees}>
             <h5>2%</h5>
@@ -88,11 +88,29 @@ export default function Home() {
         Elevate your banking experience with our Premium Account, offering exclusive benefits and personalized services to align with your financial goals. Enjoy priority customer support, higher daily transaction limits, personalized financial planning assistance, and access to a premium rewards program, all designed to enhance your financial well-being.
         </p>
         <ul>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>On-demand Issuing</li>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Marketing Support</li>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Cardholder Benefits Program</li>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Cashback Rewards Program</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Priority customer support</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Higher daily transaction limits</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Personalised financial planning assistance</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Access to Premium Rewards program</li>
         </ul>
+        <div className={styles.cardLower}>
+          <div className={styles.cardFees}>
+            <h5>€9.99</h5>
+            <p><em>Monthly maintenance fee</em></p>
+          </div>
+          <div className={styles.cardFees}>
+            <h5>€0</h5>
+            <p><em>For premium fund transfers</em></p>
+          </div>
+          <div className={styles.cardFees}>
+            <h5>€0</h5>
+            <p><em>ATM withdrawal fee wordlwide</em></p>
+          </div>
+          <div className={styles.cardFees}>
+            <h5>1%</h5>
+            <p><em>Foreign transaction fee</em></p>
+          </div>
+        </div>
       </div>
     </section>
 

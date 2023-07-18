@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+
 import styles from './appStore.module.css';
 import utilStyles from '../styles/utils.module.css';
 
@@ -23,7 +25,8 @@ export default function AppStore() {
         </div>
       </div>
 
-      <div className={styles.image}>
+      <div className={styles.right}>
+        image
       </div>
     </div>
   )

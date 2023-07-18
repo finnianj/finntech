@@ -47,25 +47,37 @@ export default function Home() {
     </header>
 
     <section className={utilStyles.container}>
-      <div className={utilStyles.headingXl}>Streamlined Solutions for Financial Success</div>
+      <div className={utilStyles.headingXl}>Banking Made Simple, Smart, and Secure</div>
     </section>
     <section className={utilStyles.container}>
       <div className={styles.card}>
         <h3>Standard</h3>
         <p>
-          The Finntech Standard Account offers essential banking features for everyday financial needs. With this account, users can enjoy convenient access to their funds, perform basic transactions, and manage their finances through a user-friendly mobile app.
+        The Standard Account is your all-inclusive solution for everyday banking needs. With secure mobile and online banking, instant fund transfers, a globally accepted debit card, and round-the-clock customer support, managing your finances has never been easier.
         </p>
         <ul>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>On-demand Issuing</li>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Push Provisioning for Digital Payments</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Secure mobile and online banking</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Globally acceted debit card</li>
           <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Temporary Virtual until Physical arrives</li>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>KYC included</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>24/7 customer support</li>
         </ul>
         <div className={styles.cardLower}>
-          <div className={styles.cardFees}>one</div>
-          <div className={styles.cardFees}>two</div>
-          <div className={styles.cardFees}>three</div>
-          <div className={styles.cardFees}>four</div>
+          <div className={styles.cardFees}>
+            <h5>€0</h5>
+            <p><em>Monthly maintenance fee</em></p>
+          </div>
+          <div className={styles.cardFees}>
+            <h5>€0</h5>
+            <p><em>Standard transfer fee</em></p>
+          </div>
+          <div className={styles.cardFees}>
+            <h5>€0</h5>
+            <p><em>ATM withdrawal fee</em></p>
+          </div>
+          <div className={styles.cardFees}>
+            <h5>2%</h5>
+            <p><em>Foreign transaction fee</em></p>
+          </div>
         </div>
       </div>
 
@@ -73,7 +85,7 @@ export default function Home() {
       <div className={styles.card}>
         <h3>Premium</h3>
         <p>
-        Elevate your banking experience with the Finntech Premium Account. Designed for discerning customers, this account provides a range of exclusive benefits, including personalized financial advice, enhanced security features, priority customer support, and access to premium rewards and discounts.
+        Elevate your banking experience with our Premium Account, offering exclusive benefits and personalized services to align with your financial goals. Enjoy priority customer support, higher daily transaction limits, personalized financial planning assistance, and access to a premium rewards program, all designed to enhance your financial well-being.
         </p>
         <ul>
           <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>On-demand Issuing</li>

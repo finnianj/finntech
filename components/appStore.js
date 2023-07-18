@@ -18,11 +18,8 @@ export default function AppStore() {
           Discover the boundless possibilities at your fingertips and unlock a world of financial growth. Seamlessly manage your accounts, make secure transactions and access personalized financial insights, all within a single app. Experience the future of banking, where your financial aspirations have no limits with Finntech.
         </p>
         <div className={styles.buttons}>
-          <div className={utilStyles.blackButton}>
-            <Link href=''>Get Started</Link>
-          </div>
-          <div className={utilStyles.whiteButton}>
-            <Link href=''>Learn More</Link>
+          <div className={utilStyles.blueButton}>
+            <Link href=''>Download Now</Link>
           </div>
         </div>
       </div>

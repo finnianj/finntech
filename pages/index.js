@@ -55,7 +55,6 @@ export default function Home() {
         <p>
           The Finntech Standard Account offers essential banking features for everyday financial needs. With this account, users can enjoy convenient access to their funds, perform basic transactions, and manage their finances through a user-friendly mobile app.
         </p>
-        <br></br>
         <ul>
           <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>On-demand Issuing</li>
           <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Push Provisioning for Digital Payments</li>
@@ -70,7 +69,6 @@ export default function Home() {
         <p>
         Elevate your banking experience with the Finntech Premium Account. Designed for discerning customers, this account provides a range of exclusive benefits, including personalized financial advice, enhanced security features, priority customer support, and access to premium rewards and discounts.
         </p>
-        <br></br>
         <ul>
           <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>On-demand Issuing</li>
           <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Marketing Support</li>

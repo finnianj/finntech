@@ -10,10 +10,12 @@ export default function AppStore() {
     <div className={styles.wrapper}>
       <div className={styles.left}>
         <h1>
-          Empowering Your Future
+          One app.
+          <br></br>
+          Infinite potential.
         </h1>
         <p className={styles.description}>
-          Finntech, the innovative digital banking app that revolutionizes the way you manage your finances. Seamlessly access and control your accounts, make secure transactions, and enjoy personalized financial insights, all at your fingertips.
+          Discover the boundless possibilities at your fingertips and unlock a world of financial growth. Seamlessly manage your accounts, make secure transactions and access personalized financial insights, all within a single app. Experience the future of banking, where your financial aspirations have no limits with Finntech.
         </p>
         <div className={styles.buttons}>
           <div className={utilStyles.blackButton}>
@@ -26,7 +28,12 @@ export default function AppStore() {
       </div>
 
       <div className={styles.right}>
-        image
+        <Image
+          src="/../public/images/appStore.png"
+          alt="Description of the image"
+          width={200}
+          height={200}
+        />
       </div>
     </div>
   )

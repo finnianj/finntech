@@ -96,15 +96,20 @@
 .card p {
   color: #666;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1.5vw;
   line-height: 1.5;
   margin-bottom: 2vw;
   padding-bottom: 2vw;
   border-bottom: 1px solid rgba(159,159,159,.1);
 }
 
+.card ul{
+  padding-left: 0;
+}
+
 .card li{
   list-style: none;
+  font-size: 2vw;
 }
 
 .card hr {
@@ -132,5 +137,9 @@
 
   .headerDescription{
     width: 100%;
+  }
+
+  .card p{
+    font-size: 3vw;
   }
 }

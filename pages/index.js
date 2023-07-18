@@ -61,6 +61,12 @@ export default function Home() {
           <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Temporary Virtual until Physical arrives</li>
           <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>KYC included</li>
         </ul>
+        <div className={styles.cardLower}>
+          <div className={styles.cardFees}></div>
+          <div className={styles.cardFees}></div>
+          <div className={styles.cardFees}></div>
+          <div className={styles.cardFees}></div>
+        </div>
       </div>
 
 

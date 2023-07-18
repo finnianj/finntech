@@ -133,6 +133,8 @@
 .cardFees p{
   font-size: 10px !important;
   border-bottom: none;
+  margin: none;
+  padding: none;
 }
 
 .faIcon{

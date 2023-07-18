@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
 import Layout, { siteTitle } from '../components/layout';
+import Plans from '../components/plans';
+import AppStore from '../components/appStore';
 import utilStyles from '../styles/utils.module.css';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/navbar';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+
 
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
           Empowering Your Future
         </h1>
         <p className={styles.headerDescription}>
-          We are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals.
+          Finntech, the innovative digital banking app that revolutionizes the way you manage your finances. Seamlessly access and control your accounts, make secure transactions, and enjoy personalized financial insights, all at your fingertips.
         </p>
         <div className={styles.headerButtons}>
           <div className={utilStyles.blackButton}>
@@ -47,37 +47,17 @@ export default function Home() {
     </header>
 
     <section className={utilStyles.container}>
-      <div className={utilStyles.headingXl}>Streamlined Solutions for Financial Success</div>
+      <div className={utilStyles.headingXl}>Banking Made Simple, Smart, and Secure</div>
     </section>
+
     <section className={utilStyles.container}>
-      <div className={styles.card}>
-        <h3>Standard</h3>
-        <p>
-          The Finntech Standard Account offers essential banking features for everyday financial needs. With this account, users can enjoy convenient access to their funds, perform basic transactions, and manage their finances through a user-friendly mobile app.
-        </p>
-        <br></br>
-        <ul>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>On-demand Issuing</li>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Push Provisioning for Digital Payments</li>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Temporary Virtual until Physical arrives</li>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>KYC included</li>
-        </ul>
-      </div>
+      <Plans />
+    </section>
 
+    <AppStore />
 
-      <div className={styles.card}>
-        <h3>Premium</h3>
-        <p>
-        Elevate your banking experience with the Finntech Premium Account. Designed for discerning customers, this account provides a range of exclusive benefits, including personalized financial advice, enhanced security features, priority customer support, and access to premium rewards and discounts.
-        </p>
-        <br></br>
-        <ul>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>On-demand Issuing</li>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Marketing Support</li>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Cardholder Benefits Program</li>
-          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Cashback Rewards Program</li>
-        </ul>
-      </div>
+    <section className={utilStyles.container}>
+      <div className={utilStyles.headingXl}>Unlocking the Future of Money Management</div>
     </section>
 
       <p>

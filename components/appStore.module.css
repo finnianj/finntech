@@ -1,0 +1,36 @@
+.wrapper{
+  width: 100%;
+  padding: 30px;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  /* border: 1px solid white; */
+  margin: 10px;
+}
+
+.description{
+  color: #a0a0a0;
+}
+
+.right{
+  width: 400px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.right img{
+  object-fit: cover;
+  width: 100%;
+}

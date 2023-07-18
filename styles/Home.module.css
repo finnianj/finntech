@@ -44,7 +44,6 @@
 .headerButtons{
   margin-top: 20px;
   display: flex;
-  font-weight: 700;
   flex-wrap: wrap;
 }
 

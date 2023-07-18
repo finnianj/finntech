@@ -116,6 +116,12 @@
   color: #666;
 }
 
+.cardLower{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .faIcon{
   margin-right: 10px;
   color: #0070f3;

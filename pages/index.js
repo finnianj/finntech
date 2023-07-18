@@ -29,7 +29,7 @@ export default function Home() {
           Empowering Your Future
         </h1>
         <p className={styles.headerDescription}>
-          We are committed to revolutionizing the way you manage your finances. Our cutting-edge platform offers a wide range of financial services designed to simplify your life and help you achieve your goals.
+          Finntech, the innovative digital banking app that revolutionizes the way you manage your finances. Seamlessly access and control your accounts, make secure transactions, and enjoy personalized financial insights, all at your fingertips.
         </p>
         <div className={styles.headerButtons}>
           <div className={utilStyles.blackButton}>
@@ -62,10 +62,10 @@ export default function Home() {
           <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>KYC included</li>
         </ul>
         <div className={styles.cardLower}>
-          <div className={styles.cardFees}></div>
-          <div className={styles.cardFees}></div>
-          <div className={styles.cardFees}></div>
-          <div className={styles.cardFees}></div>
+          <div className={styles.cardFees}>one</div>
+          <div className={styles.cardFees}>two</div>
+          <div className={styles.cardFees}>three</div>
+          <div className={styles.cardFees}>four</div>
         </div>
       </div>
 

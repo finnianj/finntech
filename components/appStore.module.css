@@ -1,0 +1,15 @@
+.wrapper{
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  height: fit-content;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin-left: 3vw;
+}

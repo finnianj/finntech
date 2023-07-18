@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Layout, { siteTitle } from '../components/layout';
 import Plans from '../components/plans';
+import AppStore from '../components/appStore';
 import utilStyles from '../styles/utils.module.css';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/navbar';
@@ -49,8 +50,15 @@ export default function Home() {
     <section className={utilStyles.container}>
       <div className={utilStyles.headingXl}>Banking Made Simple, Smart, and Secure</div>
     </section>
+
     <section className={utilStyles.container}>
       <Plans />
+    </section>
+
+    <AppStore />
+
+    <section className={utilStyles.container}>
+      <div className={utilStyles.headingXl}>Unlocking the Future of Money Management</div>
     </section>
 
       <p>

@@ -3,7 +3,7 @@ title: 'Small Business Lingo 101: Essential Terms'
 date: '2017-11-12'
 author: 'Brian'
 role: 'Global Affairs Associate'
-image: '/images/articles/4.jpeg'
+image: '/images/articles/4.jpg'
 ---
 
 Starting a small business comes with a whole new vocabulary. Understanding essential business terms can help you navigate the entrepreneurial world with confidence. Here's a list of key terms every small business owner should know:

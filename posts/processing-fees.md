@@ -3,7 +3,7 @@ title: 'The Complete Guide to Card Processing Fees'
 date: '2020-01-01'
 author: 'Susan'
 role: 'Expansion Manager'
-image: '/images/articles/6.jpeg'
+image: '/images/articles/6.jpg'
 ---
 
 Navigating the world of payment processing can be a daunting task for businesses, but understanding card processing fees is crucial to optimizing financial transactions. In this comprehensive guide, we will demystify the various fees associated with card processing and how the Finntech app can help businesses streamline their payment processes.

@@ -3,7 +3,7 @@ title: 'Setting Up a Finntech Business Account: A Step-By-Step Guide'
 date: '2020-05-03'
 author: 'Finn'
 role: 'CEO'
-image: '/images/articles/1.jpeg'
+image: '/images/articles/1.jpg'
 ---
 
 Are you a business owner looking for a seamless and modern banking experience? Setting up a Finntech business account is a game-changer. Follow these simple steps to embark on a journey of efficient financial management and growth:

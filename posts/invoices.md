@@ -3,7 +3,7 @@ title: '6 Reasons Small Business Owners Love Invoices'
 date: '2023-06-04'
 author: 'Susan'
 role: 'Expansion Manager'
-image: '/images/articles/2.jpeg'
+image: '/images/articles/2.jpg'
 ---
 
 Invoices are the unsung heroes of small business operations, streamlining financial transactions and contributing to the growth and success of entrepreneurs. As small business owners, embracing the power of invoices can revolutionize the way you do business. Here are six compelling reasons why small business owners love invoices and how the Finntech app enhances this crucial financial process.

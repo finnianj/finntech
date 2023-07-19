@@ -9,7 +9,7 @@ export default function BusinessGuide({ posts }) {
   return (
     <>
       {posts.map((post) => (
-        <div className={styles.card}>
+        <div key={post.id} className={styles.card}>
           <Image
             priority
             src={post.image}
@@ -18,7 +18,10 @@ export default function BusinessGuide({ posts }) {
             width={150}
             alt=""
           />
-          <p key={post.id}>{post.title}</p>
+          <div className={styles.lower}>
+            <h5 className={styles.title}>{post.title}</h5>
+            <p className={styles.info}><em>{post.author}, {post.role}</em></p>
+          </div>
         </div>
       ))}
     </>

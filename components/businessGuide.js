@@ -9,7 +9,9 @@ export default function BusinessGuide({ posts }) {
   return (
     <div className={utilStyles.container}>
       {posts.map((post) => (
-        <p key={post.id}>{post.title}</p>
+        <div className={styles.card}>
+          <p key={post.id}>{post.title}</p>
+        </div>
       ))}
     </div>
   );

@@ -6,7 +6,7 @@ import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Date from '../../components/date';
 
-const name = 'Finn';
+const name = 'Finn, CEO';
 
 
 export async function getStaticProps({ params }) {

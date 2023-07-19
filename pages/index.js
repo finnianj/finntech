@@ -3,6 +3,9 @@ import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 import Plans from '../components/plans';
 import AppStore from '../components/appStore';
+import BusinessGuide from '../components/businessGuide';
+import { getPostData } from '../lib/posts';
+
 import utilStyles from '../styles/utils.module.css';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/navbar';
@@ -10,6 +13,8 @@ import Navbar from '../components/navbar';
 
 
 export default function Home() {
+  const articleTitles = getPostData();
+
   return (
     <>
     <Navbar />
@@ -56,8 +61,14 @@ export default function Home() {
 
     <AppStore />
 
-    <section className={utilStyles.container}>
+    {/* <section className={utilStyles.container}>
       <div className={utilStyles.headingXl}>Unlocking the Future of Money Management</div>
+    </section> */}
+
+    <div className={utilStyles.headingXl}>Visit our Business Guide for Advice and Inspiration</div>
+
+    <section className={utilStyles.container}>
+      <BusinessGuide />
     </section>
 
       <p>

@@ -27,6 +27,9 @@ export default function Navbar() {
         <Link href="/security">
           Security
         </Link>
+        <Link href="/guide">
+          Business Guide
+        </Link>
       </div>
       <div className={`${styles.burgerMenu} ${isMenuOpen ? styles.open : ''} ${styles.rotateX}`} onClick={handleMenuToggle}>
         <div className={styles.bar}></div>

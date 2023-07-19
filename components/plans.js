@@ -20,7 +20,7 @@ export default function Plans() {
         </ul>
         <div className={styles.cardLower}>
           <div className={styles.cardFees}>
-            <h5>Free</h5>
+            <h5>No Monthly Fee</h5>
             <p><em>Monthly maintenance fee</em></p>
           </div>
           <div className={styles.cardFees}>
@@ -66,6 +66,37 @@ export default function Plans() {
           <div className={styles.cardFees}>
             <h5>1%</h5>
             <p><em>Foreign transaction fee</em></p>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.card}>
+        <h3>Business Account</h3>
+        <p>
+        Unlock the full potential of your business with our Finntech Business Account, designed to cater to the unique financial needs of entrepreneurs like you. Enjoy a suite of features and services that streamline your business transactions and drive growth. From intuitive expense tracking to powerful financial insights, the Finntech Business Account puts you in control of your finances.
+        </p>
+        <ul>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Easy and efficient expense tracking</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Seamless invoicing and payment processing</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Comprehensive financial analytics and reporting</li>
+          <li><FontAwesomeIcon icon={faCheckCircle} className={styles.faIcon}></FontAwesomeIcon>Multi-user access for collaborative money management</li>
+        </ul>
+        <div className={styles.cardLower}>
+          <div className={styles.cardFees}>
+            <h5>No Monthly Fee</h5>
+            <p><em>Monthly maintenance fee</em></p>
+          </div>
+          <div className={styles.cardFees}>
+            <h5>Free</h5>
+            <p><em>Internal Fund Transfers</em></p>
+          </div>
+          <div className={styles.cardFees}>
+            <h5>1.5%</h5>
+            <p><em>Merchant Transaction Fee</em></p>
+          </div>
+          <div className={styles.cardFees}>
+            <h5>Free</h5>
+            <p><em>Online and Mobile Banking</em></p>
           </div>
         </div>
       </div>

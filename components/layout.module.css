@@ -1,8 +1,7 @@
 .container {
-  width: 90vw;
   padding: 0 1rem;
-  margin: 3rem auto 6rem;
-  border: 2px solid black;
+  margin: 150px auto 50px;
+  /* border: 2px solid black; */
 }
 
 .header {
@@ -13,4 +12,5 @@
 
 .backToHome {
   margin: 3rem 0 0;
+  color: #0070f3;
 }

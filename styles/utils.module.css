@@ -84,4 +84,39 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
+
+.author{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: cover;
+}
+
+.author img{
+  object-fit: cover;
+}
+
+.authorName{
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+.authorRole{
+  color: #666;
+  margin: 0;
+}
+
+.articleText{
+  text-align: justify;
+}
+
+.noUnderline{
+  text-decoration: none !important;
+}
+
+.padding{
+  height: 100px;
+}
+

@@ -3,13 +3,23 @@ import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 import Plans from '../components/plans';
 import AppStore from '../components/appStore';
+import BusinessGuide from '../components/businessGuide';
+import { getSortedPostsData } from '../lib/posts';
+
 import utilStyles from '../styles/utils.module.css';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/navbar';
 
+export async function getStaticProps() {
+  const posts= await getSortedPostsData();
+  return {
+    props: {
+      posts,
+    },
+  };
+}
 
-
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <>
     <Navbar />
@@ -29,7 +39,7 @@ export default function Home() {
           Empowering Your Future
         </h1>
         <p className={styles.headerDescription}>
-          Finntech, the innovative digital banking app that revolutionizes the way you manage your finances. Seamlessly access and control your accounts, make secure transactions, and enjoy personalized financial insights, all at your fingertips.
+          The digital banking app that revolutionizes the way you manage your finances. Seamlessly access and control your accounts, make secure transactions, and enjoy personalized financial insights, all at your fingertips.
         </p>
         <div className={styles.headerButtons}>
           <div className={utilStyles.blackButton}>
@@ -56,9 +66,13 @@ export default function Home() {
 
     <AppStore />
 
-    <section className={utilStyles.container}>
+    {/* <section className={utilStyles.container}>
       <div className={utilStyles.headingXl}>Unlocking the Future of Money Management</div>
-    </section>
+    </section> */}
+
+    <div className={utilStyles.headingXl}>Visit our Business Guide for Advice and Inspiration</div>
+
+    <BusinessGuide posts={posts}/>
 
       <p>
 

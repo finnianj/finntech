@@ -84,7 +84,7 @@ export default function Plans() {
         <div className={styles.cardLower}>
           <div className={styles.cardFees}>
             <h5>No Monthly Fee</h5>
-            <p><em>Enjoy our Business Account with no monthly maintenance fee.</em></p>
+            <p><em>Monthly maintenance fee</em></p>
           </div>
           <div className={styles.cardFees}>
             <h5>Free</h5>

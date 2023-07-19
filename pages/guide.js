@@ -21,15 +21,18 @@ export default function Guide({ posts }) {
     <>
       <Navbar />
       <Layout size={'60rem'}>
-        {/* <div className={utilStyles.padding}></div> */}
+
         <section className={utilStyles.container}>
           <div className={utilStyles.headingXl}>Explore Our Expert Advice</div>
+          <p className={`${utilStyles.lightText} ${utilStyles.articleText}`}>
+            Welcome to the Finntech Business Guide, your ultimate resource for navigating the world of finance and business. At Finntech, we take pride in providing valuable insights and expert advice to empower entrepreneurs and businesses on their path to success. What sets our Business Guide apart is that all the articles are thoughtfully crafted by our dedicated team of knowledgeable employees, each with a wealth of expertise in various financial domains. From essential financial terminology to growth strategies and industry trends, our employee-authored posts offer trusted and reliable guidance, ensuring you make informed decisions for your financial journey. Discover the comprehensive support you need to thrive in today's dynamic business landscape with Finntech's Business Guide.
+          </p>
+          <br></br>
         </section>
 
         <section className={utilStyles.container}>
           <BusinessGuide posts={posts} />
         </section>
-        {/* <div className={utilStyles.padding}></div> */}
 
       </Layout>
     </>

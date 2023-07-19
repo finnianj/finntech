@@ -84,7 +84,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .author{
@@ -119,4 +118,3 @@
 .padding{
   height: 100px;
 }
-

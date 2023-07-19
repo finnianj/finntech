@@ -1,10 +1,7 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Finn';
 export const siteTitle = 'Finntech';
 
 export default function Layout({ children, home }) {
@@ -14,7 +11,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Blog posts"
         />
         {/* <meta
           property="og:image"
@@ -26,7 +23,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
 
-      
+
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

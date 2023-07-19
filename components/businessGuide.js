@@ -6,7 +6,6 @@ import styles from './businessGuide.module.css';
 import utilStyles from '../styles/utils.module.css';
 
 export default function BusinessGuide({ posts }) {
-  console.log(posts);
   return (
     <div className={utilStyles.container}>
       {posts.map((post) => (

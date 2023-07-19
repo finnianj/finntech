@@ -72,9 +72,7 @@ export default function Home({ posts }) {
 
     <div className={utilStyles.headingXl}>Visit our Business Guide for Advice and Inspiration</div>
 
-    <section className={utilStyles.container}>
-      <BusinessGuide posts={posts}/>
-    </section>
+    <BusinessGuide posts={posts}/>
 
       <p>
 

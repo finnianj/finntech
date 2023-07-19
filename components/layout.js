@@ -4,9 +4,12 @@ import Link from 'next/link';
 
 export const siteTitle = 'Finntech';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, size }) {
+  console.log(size);
+  const maxWidthValue = size ? size : '36rem'
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{ maxWidth: maxWidthValue }}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -24,7 +27,7 @@ export default function Layout({ children, home }) {
       </Head>
 
 
-      <main>{children}</main>
+      {children}
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Back to home</Link>

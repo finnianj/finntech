@@ -28,7 +28,7 @@ export default function Post({ postData }) {
   return (
     <>
       <Navbar />
-        <Layout>
+        <Layout size={null}>
           <Head>
             <title>{postData.title}</title>
           </Head>

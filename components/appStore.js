@@ -10,9 +10,9 @@ export default function AppStore() {
     <div className={styles.wrapper}>
       <div className={styles.left}>
         <h1>
-          One app.
+          One App.
           <br></br>
-          Infinite potential.
+          Infinite Potential.
         </h1>
         <p className={styles.description}>
           Discover the boundless possibilities at your fingertips and unlock a world of financial growth. Seamlessly manage your accounts, make secure transactions and access personalized financial insights, all within a single app. Experience the future of banking, where your financial aspirations have no limits with Finntech.

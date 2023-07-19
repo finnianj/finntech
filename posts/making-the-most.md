@@ -1,6 +1,9 @@
 ---
 title: 'Making the Most of Personal Finance Analytics with Finntech'
 date: '2021-11-20'
+author: 'Finn'
+role: 'CEO'
+image: '/images/articles/5.jpeg'
 ---
 
 As a forward-thinking individual, taking control of your financial future is paramount. Finntech's personal finance analytics empowers you with valuable insights to optimize your financial well-being. Here's how you can make the most of this powerful tool to achieve your financial goals:

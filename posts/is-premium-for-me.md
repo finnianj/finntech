@@ -1,6 +1,9 @@
 ---
 title: 'Is Finntech Premium Right for Me?'
 date: '2022-09-03'
+author: 'Finn'
+role: 'CEO'
+image: '/images/articles/3.jpeg'
 ---
 
 As you explore the array of financial services available, the question of whether to upgrade to Finntech Premium might arise. To make an informed decision, consider the following factors to determine if Finntech Premium is the right fit for you:

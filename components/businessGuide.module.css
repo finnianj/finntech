@@ -1,6 +1,7 @@
 .card {
   margin: 1rem;
-  width: 200px;
+  width: 300px;
+  height: fit-content;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -25,9 +26,14 @@
 .card p {
   color: #666;
   margin: 0;
-  font-size: 1.5vw;
+  font-size: 1vw;
   line-height: 1.5;
   margin-bottom: 2vw;
   padding-bottom: 2vw;
   border-bottom: 1px solid rgba(159,159,159,.1);
+}
+
+.image{
+  width: 100%;
+  height:auto;
 }

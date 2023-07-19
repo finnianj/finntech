@@ -111,3 +111,7 @@
 .articleText{
   text-align: justify;
 }
+
+.noUnderline{
+  text-decoration: none !important;
+}

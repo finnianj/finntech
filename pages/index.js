@@ -4,14 +4,14 @@ import Layout, { siteTitle } from '../components/layout';
 import Plans from '../components/plans';
 import AppStore from '../components/appStore';
 import BusinessGuide from '../components/businessGuide';
-import { getAllPostTitles } from '../lib/posts';
+import { getSortedPostsData } from '../lib/posts';
 
 import utilStyles from '../styles/utils.module.css';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/navbar';
 
 export async function getStaticProps() {
-  const postTitles = await getAllPostTitles();
+  const postTitles = await getSortedPostsData();
   return {
     props: {
       postTitles,

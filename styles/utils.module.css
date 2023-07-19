@@ -85,3 +85,9 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.finn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

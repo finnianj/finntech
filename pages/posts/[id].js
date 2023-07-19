@@ -6,6 +6,8 @@ import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Date from '../../components/date';
 
+const name = 'Finn';
+
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
@@ -33,7 +35,7 @@ export default function Post({ postData }) {
             <title>{postData.title}</title>
           </Head>
           <article>
-            <div className={utilStyles.container}>
+            <div className={utilStyles.finn}>
               <Image
                 priority
                 src="/images/profile.png"
@@ -42,6 +44,11 @@ export default function Post({ postData }) {
                 width={108}
                 alt=""
               />
+              <h2 className={utilStyles.headingLg}>
+              <div href="/" className={utilStyles.colorInherit}>
+                {name}
+              </div>
+            </h2>
             </div>
             <h1 className={utilStyles.headingXl}>{postData.title}</h1>
             <div className={utilStyles.lightText}>

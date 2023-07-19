@@ -1,20 +1,17 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-// import { getPostData } from '../lib/posts';
 
 import styles from './businessGuide.module.css';
 import utilStyles from '../styles/utils.module.css';
 
-export default function BusinessGuide() {
-
-  // const articles = getPostData()
-
+export default function BusinessGuide(posts) {
+  console.log(posts);
   return (
-    <div>hi
-      {/* {articles.forEach(a => {
-        <p>a</p>
-      })} */}
+    <div className={utilStyles.container}>
+      {posts.data.forEach(post => {
+        <p>post</p>
+      })}
     </div>
   )
 }

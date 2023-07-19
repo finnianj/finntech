@@ -11,16 +11,15 @@ import styles from '../styles/Home.module.css';
 import Navbar from '../components/navbar';
 
 export async function getStaticProps() {
-  const postTitles = await getSortedPostsData();
+  const posts= await getSortedPostsData();
   return {
     props: {
-      postTitles,
+      posts,
     },
   };
 }
 
-export default function Home(props) {
-  console.log(props);
+export default function Home({ posts }) {
   return (
     <>
     <Navbar />
@@ -74,7 +73,7 @@ export default function Home(props) {
     <div className={utilStyles.headingXl}>Visit our Business Guide for Advice and Inspiration</div>
 
     <section className={utilStyles.container}>
-      <BusinessGuide />
+      <BusinessGuide data={posts}/>
     </section>
 
       <p>

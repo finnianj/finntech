@@ -39,7 +39,7 @@ export default function Home({ posts }) {
           Empowering Your Future
         </h1>
         <p className={styles.headerDescription}>
-          Finntech, the innovative digital banking app that revolutionizes the way you manage your finances. Seamlessly access and control your accounts, make secure transactions, and enjoy personalized financial insights, all at your fingertips.
+          The digital banking app that revolutionizes the way you manage your finances. Seamlessly access and control your accounts, make secure transactions, and enjoy personalized financial insights, all at your fingertips.
         </p>
         <div className={styles.headerButtons}>
           <div className={utilStyles.blackButton}>

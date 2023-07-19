@@ -1,6 +1,6 @@
 .card {
   margin: 1rem;
-  flex-basis: 80%;
+  width: 200px;
   padding: 1.5rem;
   text-align: left;
   color: inherit;

@@ -7,12 +7,12 @@ import utilStyles from '../styles/utils.module.css';
 
 export default function BusinessGuide({ posts }) {
   return (
-    <div className={utilStyles.container}>
+    <>
       {posts.map((post) => (
         <div className={styles.card}>
           <p key={post.id}>{post.title}</p>
         </div>
       ))}
-    </div>
+    </>
   );
 }

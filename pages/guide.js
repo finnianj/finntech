@@ -18,28 +18,35 @@ export async function getStaticProps() {
 }
 
 export default function Guide({ posts }) {
+  let authors = []
+  posts.forEach((post) => {
+    if (!authors.includes(post.author)) authors.push(post.author)
+  })
+
   return (
     <>
       <Navbar />
       <Layout size={'60rem'}>
-      <section className={utilStyles.container}>
-        {posts.map((post) => (
-          <div key={post.id} className={utilStyles.author}>
-            <Image
-              priority
-              src={`/images/authors/${post.author}.png`}
-              className={utilStyles.borderCircle}
-              height={150}
-              width={150}
-              alt=""
-            />
-          </div>
-        ))}
-      </section>
 
+
+          <div className={utilStyles.headingXl}>Explore Our Expert Advice</div>
+          <div className={utilStyles.authorGallery}>
+            {authors.map((author) => (
+                <div key={author.id} className={utilStyles.author}>
+                  <Image
+                    priority
+                    src={`/images/authors/${author}.png`}
+                    className={utilStyles.borderCircle}
+                    height={150}
+                    width={150}
+                    alt=""
+                  />
+                </div>
+            ))}
+          </div>
 
         <section className={utilStyles.container}>
-          <div className={utilStyles.headingXl}>Explore Our Expert Advice</div>
+
           <p className={`${utilStyles.lightText} ${utilStyles.articleText}`}>
             Welcome to the Finntech Business Guide, your ultimate resource for navigating the world of finance and business. At Finntech, we take pride in providing valuable insights and expert advice to empower entrepreneurs and businesses on their path to success.
           </p>

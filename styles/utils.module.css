@@ -118,3 +118,10 @@
 .blueText{
   color: #0070f3;
 }
+
+.authorGallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}

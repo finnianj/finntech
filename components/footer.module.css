@@ -48,7 +48,7 @@
 }
 
 .footerBottom{
-  padding: 50px;
+  padding: 0px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;

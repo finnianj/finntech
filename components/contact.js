@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+
 
 import styles from './contact.module.css';
 import utilStyles from '../styles/utils.module.css';
@@ -10,8 +14,13 @@ export default function Contact() {
     <div className={styles.contactContainer}>
       <div className={styles.contactLeft}>
         <div className={styles.contactText}>
-          <h1>Request an invitation</h1>
+          <h1>
+            Request an invitation
+            <br></br>
+            <FontAwesomeIcon icon={faEnvelope} className={styles.faIcon}></FontAwesomeIcon>
+          </h1>
           <p className={utilStyles.lightText}>Please contact our sales team to receive more information on how to get started with Finntech</p>
+          <p className={utilStyles.lightText}><FontAwesomeIcon icon={faPhone} className={styles.faIcon}></FontAwesomeIcon>  +49 1573 6600 324</p>
         </div>
       </div>
       <div className={styles.contactRight}>

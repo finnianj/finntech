@@ -5,7 +5,7 @@ import Image from 'next/image';
 import styles from './contact.module.css';
 import utilStyles from '../styles/utils.module.css';
 
-export default function AppStore() {
+export default function Contact() {
   return (
     <div className={styles.contactContainer}>
       <div className={styles.contactLeft}>

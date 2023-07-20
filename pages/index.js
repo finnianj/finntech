@@ -58,10 +58,6 @@ export default function Home({ posts }) {
     </header>
 
     <section className={utilStyles.container}>
-      <Contact />
-    </section>
-
-    <section className={utilStyles.container}>
       <div className={utilStyles.headingXl}>Banking Made Simple, Smart, and Secure</div>
     </section>
 
@@ -71,14 +67,16 @@ export default function Home({ posts }) {
 
     <AppStore />
 
-    {/* <section className={utilStyles.container}>
-      <div className={utilStyles.headingXl}>Unlocking the Future of Money Management</div>
-    </section> */}
 
     <div className={utilStyles.headingXl}>Visit our Business Guide for Advice and Inspiration</div>
 
+
     <section className={utilStyles.container}>
       <BusinessGuide posts={posts}/>
+    </section>
+
+    <section className={utilStyles.container}>
+      <Contact />
     </section>
 
       <p>

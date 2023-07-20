@@ -4,6 +4,8 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
+  padding: 50px 0px;
+  border-bottom: 1px solid #666;
 }
 
 .contactLeft{
@@ -36,6 +38,7 @@
   padding: 15px 30px;
   width: fit-content;
   align-self: flex-end;
+  font-weight: 700;
 }
 
 .submit:hover{

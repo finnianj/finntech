@@ -1,4 +1,4 @@
-// import Head from 'next/head';
+import Head from 'next/head';
 import Link from 'next/link';
 import Plans from '../components/plans';
 import OneApp from '../components/one_app';
@@ -23,6 +23,9 @@ export async function getStaticProps() {
 export default function Home({ posts }) {
   return (
     <>
+    <Head>
+      <title>Finntech - Home</title>
+    </Head>
     <Navbar />
 
     <header className={styles.header}>

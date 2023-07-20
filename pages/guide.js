@@ -1,4 +1,4 @@
-// import Head from 'next/head';
+import Head from 'next/head';
 import Image from 'next/image';
 import BusinessGuide from '../components/business_guide';
 import Navbar from '../components/navbar';
@@ -27,9 +27,9 @@ export default function Guide({ posts }) {
 
   return (
     <>
-      {/* <Head>
-        <title>My Next.js App</title>
-      </Head> */}
+      <Head>
+        <title>Finntech - Business Guide</title>
+      </Head>
 
       <Navbar />
       <Layout size={'60rem'}>

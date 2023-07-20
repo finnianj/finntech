@@ -1,4 +1,4 @@
-// import Head from 'next/head';
+import Head from 'next/head';
 import Plans from '../components/plans';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
@@ -10,9 +10,9 @@ import Layout from '../components/layout';
 export default function Pricing() {
   return (
     <>
-      {/* <Head>
-      <title>My Next.js App</title>
-      </Head> */}
+      <Head>
+        <title>Finntech - Pricing</title>
+      </Head>
 
       <Navbar />
       <Layout size={'60rem'}>

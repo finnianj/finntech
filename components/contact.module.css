@@ -22,24 +22,6 @@
   margin: 20px auto;
 }
 
-.formItem label{
-  font-size: 15px;
-  margin-bottom: 5px;
-  color: #666;
-}
-.formItem input{
-  font-size: 15px;
-  padding: 10px;
-  border: 1px solid #9a9a9a;
-  border-radius: 5px;
-}
-.formItem select{
-  font-size: 15px;
-  padding: 10px;
-  border: 1px solid #9a9a9a;
-  border-radius: 5px;
-}
-
 .submit {
   background-color: #0070f3;
   color: white;

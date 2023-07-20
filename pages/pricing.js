@@ -37,8 +37,9 @@ export default function Pricing() {
           <br></br>
         </section>
 
-
-        <Plans />
+        <section className={utilStyles.container}>
+          <Plans />
+        </section>
       </Layout>
       <Footer />
     </>

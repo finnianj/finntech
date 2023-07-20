@@ -1,4 +1,4 @@
-import Head from 'next/head';
+// import Head from 'next/head';
 import Link from 'next/link';
 import Plans from '../components/plans';
 import OneApp from '../components/one_app';
@@ -24,15 +24,6 @@ export default function Home({ posts }) {
   return (
     <>
     <Navbar />
-
-    <Head>
-      <Link
-        href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
-        rel='stylesheet'
-      >
-      </Link>
-    </Head>
-
 
     <header className={styles.header}>
       <div className={styles.headerLeft}>

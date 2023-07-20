@@ -1,5 +1,5 @@
 import utilStyles from '../styles/utils.module.css';
-import Head from 'next/head';
+// import Head from 'next/head';
 import Image from 'next/image';
 import Navbar from '../components/navbar'
 import Footer from '../components/footer';
@@ -9,7 +9,9 @@ import Link from 'next/link';
 export default function Thanks() {
   return (
     <>
-      <Head></Head>
+      {/* <Head>
+      <title>My Next.js App</title>
+      </Head> */}
       <Navbar />
       <Layout>
         <article>

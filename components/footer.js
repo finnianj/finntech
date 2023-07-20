@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Link from 'next/link';
 import styles from './footer.module.css'; // CSS module for styling
 
 export default function Footer() {

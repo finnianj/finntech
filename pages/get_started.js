@@ -1,4 +1,4 @@
-// import Head from 'next/head';
+import Head from 'next/head';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Contact from '../components/contact';
@@ -6,9 +6,9 @@ import Contact from '../components/contact';
 export default function GetStarted() {
   return (
     <>
-      {/* <Head>
-        <title>My Next.js App</title>
-      </Head> */}
+      <Head>
+        <title>Finntech - Get Started</title>
+      </Head>
       <Navbar />
       <br></br>
       <br></br>

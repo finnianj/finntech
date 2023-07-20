@@ -1,4 +1,4 @@
-// import Head from 'next/head';
+import Head from 'next/head';
 import Link from 'next/link';
 import Plans from '../components/plans';
 import OneApp from '../components/one_app';
@@ -23,6 +23,9 @@ export async function getStaticProps() {
 export default function Home({ posts }) {
   return (
     <>
+    <Head>
+      <title>Finntech - Home</title>
+    </Head>
     <Navbar />
 
     <header className={styles.header}>
@@ -38,7 +41,7 @@ export default function Home({ posts }) {
             <Link href='/get_started'>Get Started</Link>
           </div>
           <div className={utilStyles.whiteButton}>
-            <Link href='/learn_more'>Learn More</Link>
+            <Link href='/pricing'>Learn More</Link>
           </div>
         </div>
       </div>
@@ -61,7 +64,6 @@ export default function Home({ posts }) {
 
     <div className={utilStyles.headingXl}>Visit our Business Guide for Advice and Inspiration</div>
 
-
     <section className={utilStyles.container}>
       <BusinessGuide posts={posts}/>
     </section>
@@ -69,9 +71,20 @@ export default function Home({ posts }) {
     <br></br>
     <br></br>
 
+    <div className={styles.securityBanner}>
+      <h1>Security and Privacy Policy</h1>
+      <p>Your Financial Safety is Our Top Priority – Trust in Finntech's Robust Security Measures and Privacy Commitment.</p>
+      <div className={utilStyles.whiteButton}>
+        <Link href='/security'>Learn More</Link>
+      </div>
+    </div>
+
+
     <section className={utilStyles.backgroundBlue}>
       <Contact />
     </section>
+
+
 
     <Footer />
     </>

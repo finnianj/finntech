@@ -26,7 +26,7 @@ export default function OneApp() {
 
       <div className={styles.right}>
         <Image
-          src="/../public/images/appStore.png"
+          src="/../public/images/phone.png"
           alt="A phone"
           width={200}
           height={200}

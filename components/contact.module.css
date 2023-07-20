@@ -1,0 +1,27 @@
+.contactContainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.contactLeft{
+  border: 1px solid red;
+  width: 500px;
+}
+.contactRight{
+  border: 1px solid green;
+  width: 500px;
+}
+
+@media (max-size: 600px) {
+
+  .contactLeft{
+    width: 300px;
+  }
+  .contactRight{
+    width: 300px;
+  }
+
+}

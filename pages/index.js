@@ -43,7 +43,7 @@ export default function Home({ posts }) {
         </p>
         <div className={styles.headerButtons}>
           <div className={utilStyles.blackButton}>
-            <Link href='/get-started'>Get Started</Link>
+            <Link href='/get_started'>Get Started</Link>
           </div>
           <div className={utilStyles.whiteButton}>
             <Link href=''>Learn More</Link>

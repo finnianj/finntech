@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Plans from '../components/plans';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
@@ -11,6 +10,8 @@ import Layout from '../components/layout';
 export default function Pricing() {
   return (
     <>
+      <Head></Head>
+
       <Navbar />
       <Layout size={'60rem'}>
         <section className={utilStyles.container}>

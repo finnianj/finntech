@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link';
 import BusinessGuide from '../components/business_guide';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
@@ -21,11 +20,16 @@ export async function getStaticProps() {
 export default function Guide({ posts }) {
   let authors = []
   posts.forEach((post) => {
-    if (!authors.includes(post.author)) authors.push(post.author)
+    if (!authors.includes(post.author)) {
+      authors.push(post.author)
+    }
   })
 
   return (
     <>
+      <Head>
+
+      </Head>
       <Navbar />
       <Layout size={'60rem'}>
 

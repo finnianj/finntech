@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -26,22 +24,22 @@ export default function Contact() {
       <div className={styles.contactRight}>
         <form action="/thanks" method="get">
           <div className={styles.formItem}>
-            <label for="name">Name</label>
+            <label htmlFor="name">Name</label>
             <input type="text" id="name" name="name" required />
           </div>
 
           <div className={styles.formItem}>
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input type="email" id="email" name="email" required />
           </div>
 
           <div className={styles.formItem}>
-            <label for="country">Country</label>
+            <label htmlFor="country">Country</label>
             <input type="text" id="country" name="country" required />
           </div>
 
           <div className={styles.formItem}>
-            <label for="package">Package</label>
+            <label htmlFor="package">Package</label>
             <select id="package" name="package" required>
               <option value="standard">Standard</option>
               <option value="premium">Premium</option>
@@ -50,7 +48,7 @@ export default function Contact() {
           </div>
 
           <div className={styles.formItem}>
-            <label for="comments">Comments</label>
+            <label htmlFor="comments">Comments</label>
             <textarea id="comments" name="comments" rows="4"></textarea>
           </div>
 

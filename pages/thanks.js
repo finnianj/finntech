@@ -9,6 +9,7 @@ import Link from 'next/link';
 export default function Thanks() {
   return (
     <>
+      <Head></Head>
       <Navbar />
       <Layout>
         <article>

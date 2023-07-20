@@ -9,8 +9,8 @@ export default function BusinessGuide({ posts }) {
   return (
     <>
       {posts.map((post) => (
-        <Link href={`/posts/${post.id}`} className={utilStyles.noUnderline}>
-          <div key={post.id} className={styles.card}>
+        <Link key={post.id} href={`/posts/${post.id}`} className={utilStyles.noUnderline}>
+          <div className={styles.card}>
             <Image
               priority
               src={post.image}

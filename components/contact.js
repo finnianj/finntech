@@ -15,7 +15,7 @@ export default function AppStore() {
         </div>
       </div>
       <div className={styles.contactRight}>
-        <form action="/submit" method="post">
+        <form action="/thanks" method="get">
           <div className={styles.formItem}>
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required />

@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import styles from './businessGuide.module.css';
+import styles from './business_guide.module.css';
 import utilStyles from '../styles/utils.module.css';
 
 export default function BusinessGuide({ posts }) {
   return (
     <>
       {posts.map((post) => (
-        <Link href={`/posts/${post.id}`} className={utilStyles.noUnderline}>
-          <div key={post.id} className={styles.card}>
+        <Link key={post.id} href={`/posts/${post.id}`} className={utilStyles.noUnderline}>
+          <div className={styles.card}>
             <Image
               priority
               src={post.image}

@@ -84,7 +84,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .author{
@@ -116,7 +115,17 @@
   text-decoration: none !important;
 }
 
-.padding{
-  height: 100px;
+.blueText{
+  color: #0070f3;
 }
 
+.authorGallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.backgroundBlue{
+  background-image: linear-gradient(135deg, #c8e2ff 10%, #ffffff 90%);
+}

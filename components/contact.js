@@ -9,7 +9,10 @@ export default function AppStore() {
   return (
     <div className={styles.contactContainer}>
       <div className={styles.contactLeft}>
-        some words
+        <div className={styles.contactText}>
+          <h1>Request an invitation</h1>
+          <p className={utilStyles.lightText}>Please contact our sales team to receive more information on how to get started with Finntech</p>
+        </div>
       </div>
       <div className={styles.contactRight}>
         <form action="/submit" method="post">

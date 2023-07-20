@@ -19,7 +19,7 @@ export default function AppStore() {
         </p>
         <div className={styles.buttons}>
           <div className={utilStyles.blueButton}>
-            <Link href=''>Download Now</Link>
+            <Link href='/get_started'>Get Started</Link>
           </div>
         </div>
       </div>
@@ -27,7 +27,7 @@ export default function AppStore() {
       <div className={styles.right}>
         <Image
           src="/../public/images/appStore.png"
-          alt="Description of the image"
+          alt="A phone"
           width={200}
           height={200}
         />

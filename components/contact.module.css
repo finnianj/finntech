@@ -7,12 +7,17 @@
 }
 
 .contactLeft{
-  border: 1px solid red;
   width: 500px;
 }
 .contactRight{
-  border: 1px solid green;
   width: 500px;
+}
+
+.contactText{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
 }
 
 .formItem {
@@ -23,6 +28,7 @@
 }
 
 .submit {
+  font-size: 15px;
   background-color: #0070f3;
   color: white;
   border: none;
@@ -30,6 +36,11 @@
   padding: 15px 30px;
   width: fit-content;
   align-self: flex-end;
+}
+
+.submit:hover{
+  opacity: 70%;
+  cursor: pointer;
 }
 
 @media (max-size: 600px) {

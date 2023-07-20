@@ -13,6 +13,7 @@ export default function GetStarted() {
       <Navbar />
       <br></br>
       <br></br>
+      <br></br>
       <Contact />
     </>
   )

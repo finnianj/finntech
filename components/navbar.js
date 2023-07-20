@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from './navbar.module.css'; // CSS module for styling
+import utilStyles from '../styles/utils.module.css'; // CSS module for styling
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faF } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Navbar() {
 
@@ -12,7 +16,11 @@ export default function Navbar() {
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo}>
+      <div className={styles.navLogo}>
+        <div className={utilStyles.logo}>
+          <FontAwesomeIcon icon={faF} className={`fa-flip-horizontal`}></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faF} className={`${utilStyles.f}`}></FontAwesomeIcon>
+        </div>
         <Link href="/">
           Finntech
         </Link>

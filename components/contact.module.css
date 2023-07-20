@@ -15,6 +15,41 @@
   width: 500px;
 }
 
+.formItem {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.formItem label{
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #666;
+}
+.formItem input{
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid #9a9a9a;
+  border-radius: 5px;
+}
+.formItem select{
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid #9a9a9a;
+  border-radius: 5px;
+}
+
+.submit {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  width: fit-content;
+  align-self: flex-end;
+}
+
 @media (max-size: 600px) {
 
   .contactLeft{

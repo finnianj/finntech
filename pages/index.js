@@ -4,6 +4,7 @@ import Layout, { siteTitle } from '../components/layout';
 import Plans from '../components/plans';
 import AppStore from '../components/app_store';
 import BusinessGuide from '../components/business_guide';
+import Contact from '../components/contact';
 import { getSortedPostsData } from '../lib/posts';
 
 import utilStyles from '../styles/utils.module.css';
@@ -55,6 +56,10 @@ export default function Home({ posts }) {
       </div>
 
     </header>
+
+    <section className={utilStyles.container}>
+      <Contact />
+    </section>
 
     <section className={utilStyles.container}>
       <div className={utilStyles.headingXl}>Banking Made Simple, Smart, and Secure</div>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import styles from './appStore.module.css';
+import styles from './app_store.module.css';
 import utilStyles from '../styles/utils.module.css';
 
 export default function AppStore() {

@@ -1,6 +1,7 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
-import BusinessGuide from '../components/businessGuide';
+import BusinessGuide from '../components/business_guide';
 import Navbar from '../components/navbar';
 
 import { getSortedPostsData } from '../lib/posts';
@@ -21,6 +22,21 @@ export default function Guide({ posts }) {
     <>
       <Navbar />
       <Layout size={'60rem'}>
+      <section className={utilStyles.container}>
+        {posts.map((post) => (
+          <div key={post.id} className={utilStyles.author}>
+            <Image
+              priority
+              src={`/images/authors/${post.author}.png`}
+              className={utilStyles.borderCircle}
+              height={150}
+              width={150}
+              alt=""
+            />
+          </div>
+        ))}
+      </section>
+
 
         <section className={utilStyles.container}>
           <div className={utilStyles.headingXl}>Explore Our Expert Advice</div>

@@ -2,8 +2,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 import Plans from '../components/plans';
-import AppStore from '../components/appStore';
-import BusinessGuide from '../components/businessGuide';
+import AppStore from '../components/app_store';
+import BusinessGuide from '../components/business_guide';
 import { getSortedPostsData } from '../lib/posts';
 
 import utilStyles from '../styles/utils.module.css';
@@ -43,7 +43,7 @@ export default function Home({ posts }) {
         </p>
         <div className={styles.headerButtons}>
           <div className={utilStyles.blackButton}>
-            <Link href=''>Get Started</Link>
+            <Link href='/get-started'>Get Started</Link>
           </div>
           <div className={utilStyles.whiteButton}>
             <Link href=''>Learn More</Link>

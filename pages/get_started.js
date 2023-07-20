@@ -11,9 +11,9 @@ export default function GetStarted() {
   return (
     <>
       <Navbar />
-      <Layout size={'60rem'}>
-        <Contact />
-      </Layout>
+      <br></br>
+      <br></br>
+      <Contact />
     </>
   )
 }

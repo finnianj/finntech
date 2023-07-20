@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 import Plans from '../components/plans';
-import AppStore from '../components/app_store';
+import OneApp from '../components/one_app';
 import BusinessGuide from '../components/business_guide';
 import Contact from '../components/contact';
 import { getSortedPostsData } from '../lib/posts';
@@ -65,7 +65,7 @@ export default function Home({ posts }) {
       <Plans />
     </section>
 
-    <AppStore />
+    <OneApp />
 
 
     <div className={utilStyles.headingXl}>Visit our Business Guide for Advice and Inspiration</div>
@@ -78,7 +78,9 @@ export default function Home({ posts }) {
     <br></br>
     <br></br>
 
-    <Contact />
+    <section className={utilStyles.backgroundBlue}>
+      <Contact />
+    </section>
 
 
       <p>

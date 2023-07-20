@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import styles from './app_store.module.css';
+import styles from './one_app.module.css';
 import utilStyles from '../styles/utils.module.css';
 
-export default function AppStore() {
+export default function OneApp() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.left}>

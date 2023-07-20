@@ -75,9 +75,11 @@ export default function Home({ posts }) {
       <BusinessGuide posts={posts}/>
     </section>
 
-    <section className={utilStyles.container}>
-      <Contact />
-    </section>
+    <br></br>
+    <br></br>
+
+    <Contact />
+
 
       <p>
 

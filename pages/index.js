@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Layout, { siteTitle } from '../components/layout';
 import Plans from '../components/plans';
 import OneApp from '../components/one_app';
 import BusinessGuide from '../components/business_guide';

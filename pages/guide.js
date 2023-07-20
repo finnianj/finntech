@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import BusinessGuide from '../components/business_guide';
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 
 import { getSortedPostsData } from '../lib/posts';
 import utilStyles from '../styles/utils.module.css';
@@ -62,6 +63,7 @@ export default function Guide({ posts }) {
         </section>
 
       </Layout>
+      <Footer />
     </>
   )
 }

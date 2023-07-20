@@ -2,6 +2,7 @@ import utilStyles from '../styles/utils.module.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import Navbar from '../components/navbar'
+import Footer from '../components/footer';
 import Layout from '../components/layout'
 import Link from 'next/link';
 
@@ -50,6 +51,7 @@ export default function Thanks() {
             </article>
 
       </Layout>
+      <Footer />
     </>
   )
 }

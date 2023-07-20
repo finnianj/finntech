@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+
 import Contact from '../components/contact';
 
 import utilStyles from '../styles/utils.module.css';
@@ -15,6 +17,7 @@ export default function GetStarted() {
       <br></br>
       <br></br>
       <Contact />
+      <Footer />
     </>
   )
 }

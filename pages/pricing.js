@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Plans from '../components/plans';
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 import utilStyles from '../styles/utils.module.css';
 import Layout from '../components/layout';
 
@@ -36,6 +37,7 @@ export default function Pricing() {
 
         <Plans />
       </Layout>
+      <Footer />
     </>
   )
 }

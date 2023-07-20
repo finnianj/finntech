@@ -27,7 +27,7 @@ export default function Navbar() {
       </div>
       <div className={styles.menu}>
         <Link href="/services">
-          Services
+          Get Started
         </Link>
         <Link href="/pricing">
           Pricing and Plans
@@ -47,14 +47,17 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className={styles.fullScreenMenu}>
           <div className={styles.menuContent}>
-            <Link href="/services">
-              Services
+            <Link href="/get_started">
+              Get Started
             </Link>
             <Link href="/pricing">
               Pricing and Plans
             </Link>
             <Link href="/security">
               Security
+            </Link>
+            <Link href="/guide">
+              Business Guide
             </Link>
           </div>
         </div>

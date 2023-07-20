@@ -41,7 +41,7 @@ export default function Home({ posts }) {
             <Link href='/get_started'>Get Started</Link>
           </div>
           <div className={utilStyles.whiteButton}>
-            <Link href='/learn_more'>Learn More</Link>
+            <Link href='/pricing'>Learn More</Link>
           </div>
         </div>
       </div>

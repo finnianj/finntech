@@ -10,6 +10,7 @@ import { getSortedPostsData } from '../lib/posts';
 import utilStyles from '../styles/utils.module.css';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 
 export async function getStaticProps() {
   const posts= await getSortedPostsData();
@@ -82,33 +83,7 @@ export default function Home({ posts }) {
       <Contact />
     </section>
 
-
-      <p>
-
-
-
-Why Choose Finntech?
-
-Streamlined Solutions for Financial Success
-
-Discover the power of Finntech and unlock a world of possibilities for your financial journey. With our user-friendly platform and comprehensive suite of services, we make it easier than ever to take control of your finances. From personalized banking solutions to tailored investment strategies, we have everything you need to make informed decisions and secure a brighter financial future.
-
-Key Features and Benefits:
-
-Seamless Personal Banking: Enjoy hassle-free banking with our intuitive interface, enabling you to manage your accounts, transfer funds, pay bills, and track expenses effortlessly.
-
-Business Solutions: Fuel the growth of your business with our range of specialized services, including business loans, merchant accounts, and cash management tools, all designed to enhance your operations and drive success.
-
-Investment Management: Grow your wealth with confidence using our innovative investment tools and expert guidance. Whether you're a seasoned investor or just starting out, we have the resources to help you build a robust portfolio.
-
-Financial Planning: Take the guesswork out of financial planning with our comprehensive tools and personalized advice. We'll assist you in setting realistic goals, creating budgets, and developing a roadmap to achieve your dreams.
-
-Join the Finntech Community Today
-
-Ready to experience the future of finance? Sign up for a free account and discover the endless possibilities that Finntech has to offer. Our dedicated team of financial experts is here to support you, providing unparalleled customer service and guidance along your financial journey. Don't miss out — start your adventure with Finntech today.
-      </p>
-
-
+    <Footer />
     </>
   );
 }

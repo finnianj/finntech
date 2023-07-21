@@ -17,18 +17,18 @@ export default function Pricing() {
 
       <Navbar />
       <Layout size={'60rem'}>
-      <div className={utilStyles.author}>
-              <Image
-                priority
-                src={"/images/authors/Maria.png"}
-                className={utilStyles.borderCircle}
-                height={108}
-                width={108}
-                alt=""
-              />
-              <h2 className={utilStyles.authorName}>Maria</h2>
-              <p className={utilStyles.authorRole}><em>Global Head of Accounts</em></p>
-            </div>
+        <div className={utilStyles.author}>
+          <Image
+            priority
+            src={"/images/authors/Maria.png"}
+            className={utilStyles.borderCircle}
+            height={108}
+            width={108}
+            alt=""
+          />
+          <h2 className={utilStyles.authorName}>Maria</h2>
+          <p className={utilStyles.authorRole}><em>Global Head of Accounts</em></p>
+        </div>
 
 
         <section className={utilStyles.container}>

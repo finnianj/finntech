@@ -24,8 +24,13 @@ export default function Home({ posts }) {
   return (
     <>
     <Head>
-      <Link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
       <title>Finntech - Home</title>
+      <link
+  rel="icon"
+  href="/icon.png"
+  type="image.png"
+  sizes="32x32"
+/>
     </Head>
     <Navbar />
 

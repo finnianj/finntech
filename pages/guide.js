@@ -38,7 +38,7 @@ export default function Guide({ posts }) {
           <div className={utilStyles.headingXl}>Explore Our Expert Advice</div>
           <div className={utilStyles.authorGallery}>
             {authors.map((author) => (
-                <div key={author.id} className={utilStyles.author}>
+                <div key={author} className={utilStyles.author}>
                   <Image
                     priority
                     src={`/images/authors/${author}.png`}

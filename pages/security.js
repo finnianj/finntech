@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Navbar from '../components/navbar.js';
 import Layout from '../components/layout.js';
 import Image from 'next/image'
@@ -6,6 +7,9 @@ import utilStyles from '../styles/utils.module.css'
 export default function Security() {
   return (
     <>
+      <Head>
+      <title>Finntech - Security</title>
+      </Head>
       <Navbar />
         <Layout>
           <div className={utilStyles.author}>

@@ -9,7 +9,7 @@ export default function Plans() {
   return (
     <>
 
-      <Link href={"/thanks"} className={utilStyles.noUnderline}>
+      <Link href={"/get_started"} className={utilStyles.noUnderline}>
         <div className={styles.card}>
           <h3>Standard</h3>
           <p>
@@ -42,7 +42,7 @@ export default function Plans() {
         </div>
       </Link>
 
-      <Link href={"/thanks"} className={utilStyles.noUnderline}>
+      <Link href={"/get_started"} className={utilStyles.noUnderline}>
         <div className={styles.card}>
           <h3>Premium</h3>
           <p>
@@ -75,7 +75,7 @@ export default function Plans() {
         </div>
       </Link>
 
-      <Link href={"/thanks"} className={utilStyles.noUnderline}>
+      <Link href={"/get_started"} className={utilStyles.noUnderline}>
         <div className={styles.card}>
           <h3>Business Account</h3>
           <p>

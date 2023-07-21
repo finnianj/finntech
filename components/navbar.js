@@ -26,7 +26,7 @@ export default function Navbar() {
         </Link>
       </div>
       <div className={styles.menu}>
-        <Link href="/services">
+        <Link href="/get_started">
           Get Started
         </Link>
         <Link href="/pricing">

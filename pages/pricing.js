@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import Plans from '../components/plans';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
@@ -16,6 +17,20 @@ export default function Pricing() {
 
       <Navbar />
       <Layout size={'60rem'}>
+      <div className={utilStyles.author}>
+              <Image
+                priority
+                src={"/images/authors/Maria.png"}
+                className={utilStyles.borderCircle}
+                height={108}
+                width={108}
+                alt=""
+              />
+              <h2 className={utilStyles.authorName}>Maria</h2>
+              <p className={utilStyles.authorRole}><em>Global Head of Accounts</em></p>
+            </div>
+
+
         <section className={utilStyles.container}>
           <div className={utilStyles.headingXl}>Pricing and Plans</div>
           <p className={`${utilStyles.lightText} ${utilStyles.articleText}`}>
@@ -30,15 +45,15 @@ export default function Pricing() {
           <p className={`${utilStyles.lightText} ${utilStyles.articleText}`}>
             Business owners can take advantage of our feature-rich Business Account, designed to empower enterprises of all sizes. Benefit from multi-user access, global transaction capabilities, and specialized financial tools to streamline your operations and drive growth.
           </p>
-          <p className={`${utilStyles.lightText} ${utilStyles.articleText}`}>
-          At Finntech, we believe in providing flexible and robust account options to cater to individuals, families, and businesses alike. Choose the plan that aligns with your aspirations, and let us accompany you on your financial journey.
-          </p>
 
           <br></br>
         </section>
 
         <section className={utilStyles.container}>
           <Plans />
+          <p className={`${utilStyles.lightText} ${utilStyles.articleText}`}>
+          At Finntech, we believe in providing flexible and robust account options to cater to individuals, families, and businesses alike. Choose the plan that aligns with your aspirations, and let us accompany you on your financial journey.
+          </p>
         </section>
       </Layout>
       <Footer />

@@ -25,12 +25,12 @@ export default function Home({ posts }) {
     <>
     <Head>
       <title>Finntech - Home</title>
-      {/* <link
+      <link
         rel="icon"
         href="/icon.png"
         type="image.png"
         sizes="32x32"
-      /> */}
+      />
     </Head>
     <Navbar />
 

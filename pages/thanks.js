@@ -1,5 +1,4 @@
 import utilStyles from '../styles/utils.module.css';
-import Head from 'next/head';
 import Image from 'next/image';
 import Navbar from '../components/navbar'
 import Footer from '../components/footer';
@@ -9,11 +8,6 @@ import Link from 'next/link';
 export default function Thanks() {
   return (
     <>
-      <Head>
-      <title>Finntech - Thanks!</title>
-      <meta property="og:image" content="/images/og.png" />
-
-      </Head>
       <Navbar />
       <Layout>
         <article>

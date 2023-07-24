@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }){
     <>
       <Head>
         <title>Finntech</title>
-        <meta property="og:image" content="/images/og.png" />
+        <meta property="og:image" content="/images/og-image.png" />
         <meta property="og:title" content="Finntech" />
         <meta property="og:description" content="Empowering Your Future" />
       </Head>

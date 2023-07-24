@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Image from 'next/image';
 import Plans from '../components/plans';
 import Navbar from '../components/navbar';
@@ -11,11 +10,6 @@ import Layout from '../components/layout';
 export default function Pricing() {
   return (
     <>
-      <Head>
-        <title>Finntech - Pricing</title>
-        <meta property="og:image" content="/images/og.png" />
-      </Head>
-
       <Navbar />
       <Layout size={'60rem'}>
         <div className={utilStyles.author}>

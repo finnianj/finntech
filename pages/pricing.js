@@ -13,6 +13,7 @@ export default function Pricing() {
     <>
       <Head>
         <title>Finntech - Pricing</title>
+        <meta property="og:image" content="/images/og.png" />
       </Head>
 
       <Navbar />

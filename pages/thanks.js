@@ -11,6 +11,8 @@ export default function Thanks() {
     <>
       <Head>
       <title>Finntech - Thanks!</title>
+      <meta property="og:image" content="/images/og.png" />
+
       </Head>
       <Navbar />
       <Layout>

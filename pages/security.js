@@ -9,6 +9,8 @@ export default function Security() {
     <>
       <Head>
       <title>Finntech - Security</title>
+      <meta property="og:image" content="/images/og.png" />
+
       </Head>
       <Navbar />
         <Layout>

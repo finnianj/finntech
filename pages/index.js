@@ -31,6 +31,7 @@ export default function Home({ posts }) {
         type="image.png"
         sizes="32x32"
       />
+      <meta property="og:image" content="/images/og.png" />
     </Head>
     <Navbar />
 

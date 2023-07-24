@@ -1,17 +1,34 @@
+import Head from 'next/head';
 import Navbar from '../components/navbar.js';
 import Layout from '../components/layout.js';
-import styles from '../styles/security.module.css'
+import Image from 'next/image'
+import utilStyles from '../styles/utils.module.css'
 
 export default function Security() {
   return (
     <>
+      <Head>
+      <title>Finntech - Security</title>
+      </Head>
       <Navbar />
-      <div className={styles.header}>
-        <h1>Security and Privacy Policy</h1>
-      </div>
         <Layout>
+          <div className={utilStyles.author}>
+            <Image
+              priority
+              src={"/images/authors/Sam.png"}
+              className={utilStyles.borderCircle}
+              height={108}
+              width={108}
+              alt=""
+            />
+            <h2 className={utilStyles.authorName}>Sam</h2>
+            <p className={utilStyles.authorRole}><em>Chief Information Security Officer</em></p>
+          </div>
+
           <div className="content">
-            <h1>Our Approach</h1>
+            <h1 className={utilStyles.centerText}>Security and Privacy Policy</h1>
+            <br></br>
+            <h2>Our Approach</h2>
             <p>
               At Finntech, we take the security and privacy of our customers' financial information very seriously. We understand the importance of safeguarding your data and ensuring a secure environment for all our users. This page outlines the security measures we have implemented and our commitment to protecting your personal information.
             </p>

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Contact from '../components/contact';
+import Layout from '../components/layout';
 
 export default function GetStarted() {
   return (
@@ -10,10 +11,11 @@ export default function GetStarted() {
         <title>Finntech - Get Started</title>
       </Head>
       <Navbar />
-      <br></br>
-      <br></br>
-      <br></br>
+      <Layout size={'80rem'}>
       <Contact />
+
+      </Layout>
+      
       <Footer />
     </>
   )

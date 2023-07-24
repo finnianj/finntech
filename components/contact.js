@@ -17,7 +17,7 @@ export default function Contact() {
             <br></br>
             <FontAwesomeIcon icon={faEnvelope} className={styles.faIcon}></FontAwesomeIcon>
           </h1>
-          <p className={utilStyles.lightText}>Please contact our sales team to receive more information on how to get started with Finntech</p>
+          <p className={utilStyles.lightText}>For any additional queries, please contact our sales team</p>
           <p className={utilStyles.lightText}><FontAwesomeIcon icon={faPhone} className={styles.faIcon}></FontAwesomeIcon>  +49 1573 6600 324</p>
         </div>
       </div>

@@ -63,6 +63,7 @@
 
 .whiteButton{
   background-color: white;
+  width: fit-content;
   border-radius: 30px;
   padding: 10px 20px;
   border: 1px solid black;
@@ -148,4 +149,8 @@
 .f{
   margin-right: 8px;
   margin-left: 1px;
+}
+
+.centerText{
+  text-align: center;
 }

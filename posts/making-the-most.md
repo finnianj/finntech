@@ -1,8 +1,8 @@
 ---
 title: 'Making the Most of Personal Finance Analytics with Finntech'
 date: '2021-11-20'
-author: 'Finn'
-role: 'CEO'
+author: 'Sam'
+role: 'Chief Information Security Officer'
 image: '/images/articles/5.jpg'
 ---
 

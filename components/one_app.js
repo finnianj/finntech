@@ -10,8 +10,7 @@ export default function OneApp() {
     <div className={styles.wrapper}>
       <div className={styles.left}>
         <h1>
-          One App.
-          <br></br>
+          One App -
           Infinite Potential.
         </h1>
         <p className={styles.description}>

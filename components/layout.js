@@ -4,7 +4,6 @@ import Link from 'next/link';
 export const siteTitle = 'Finntech';
 
 export default function Layout({ children, home, size }) {
-  console.log(size);
   const maxWidthValue = size ? size : '36rem'
 
   return (

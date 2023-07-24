@@ -1,8 +1,8 @@
 ---
 title: 'Setting Up a Finntech Business Account: A Step-By-Step Guide'
 date: '2020-05-03'
-author: 'Finn'
-role: 'CEO'
+author: 'Maria'
+role: 'Global Head of Accounts'
 image: '/images/articles/1.jpg'
 ---
 

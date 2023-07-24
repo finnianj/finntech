@@ -9,13 +9,15 @@ export default function GetStarted() {
     <>
       <Head>
         <title>Finntech - Get Started</title>
+        <meta property="og:image" content="/images/og.png" />
+
       </Head>
       <Navbar />
       <Layout size={'80rem'}>
       <Contact />
 
       </Layout>
-      
+
       <Footer />
     </>
   )

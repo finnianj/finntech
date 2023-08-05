@@ -2,12 +2,13 @@ import Image from 'next/image';
 import BusinessGuide from '../components/business_guide';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
+import { GetStaticProps } from 'next';
 
 import { getSortedPostsData } from '../lib/posts';
 import utilStyles from '../styles/utils.module.css';
 import Layout from '../components/layout';
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   const posts= await getSortedPostsData();
   return {
     props: {

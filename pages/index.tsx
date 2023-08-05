@@ -4,14 +4,15 @@ import OneApp from '../components/one_app';
 import BusinessGuide from '../components/business_guide';
 import Contact from '../components/contact';
 import { getSortedPostsData } from '../lib/posts';
+import { GetStaticProps } from 'next'
 
 import utilStyles from '../styles/utils.module.css';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
-export async function getStaticProps() {
-  const posts= await getSortedPostsData();
+export const getStaticProps: GetStaticProps = async () => {
+  const posts = await getSortedPostsData();
   return {
     props: {
       posts,

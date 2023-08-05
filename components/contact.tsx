@@ -49,7 +49,7 @@ export default function Contact() {
 
           <div className={styles.formItem}>
             <label htmlFor="comments">Comments</label>
-            <textarea id="comments" name="comments" rows="4"></textarea>
+            <textarea id="comments" name="comments" rows={4}></textarea>
           </div>
 
           <div className={styles.formItem} >

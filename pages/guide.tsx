@@ -28,7 +28,7 @@ export default function Guide({ posts }) {
   return (
     <>
       <Navbar />
-      <Layout size={'60rem'}>
+      <Layout size={'60rem'} home={false}>
 
 
           <div className={utilStyles.headingXl}>Explore Our Expert Advice</div>

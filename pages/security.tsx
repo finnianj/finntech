@@ -1,5 +1,5 @@
-import Navbar from '../components/navbar.js';
-import Layout from '../components/layout.js';
+import Navbar from '../components/navbar';
+import Layout from '../components/layout';
 import Image from 'next/image'
 import utilStyles from '../styles/utils.module.css'
 

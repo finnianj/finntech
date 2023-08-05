@@ -18,7 +18,7 @@ export const getStaticProps: GetStaticProps = async () => {
 }
 
 export default function Guide({ posts }) {
-  let authors = []
+  const authors: string[] = [];
   posts.forEach((post) => {
     if (!authors.includes(post.author)) {
       authors.push(post.author)

@@ -34,10 +34,10 @@ export default function Home({ posts }) {
         </p>
         <div className={styles.headerButtons}>
           <div className={utilStyles.blackButton}>
-            <Link href='/get_started'>Get Started</Link>
+            <Link href='/pricing'>Get Started</Link>
           </div>
           <div className={utilStyles.whiteButton}>
-            <Link href='/pricing'>Learn More</Link>
+            <Link href='/guide'>Learn More</Link>
           </div>
         </div>
       </div>

@@ -8,7 +8,6 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 export default function Plans() {
   return (
     <>
-
       <Link href={"/get_started"} className={utilStyles.noUnderline}>
         <div className={styles.card}>
           <h3>Standard</h3>

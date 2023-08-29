@@ -9,7 +9,7 @@ import utilStyles from '../styles/utils.module.css';
 import Layout from '../components/layout';
 
 export const getStaticProps: GetStaticProps = async () => {
-  const posts= await getSortedPostsData();
+  const posts = await getSortedPostsData();
   return {
     props: {
       posts,

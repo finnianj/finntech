@@ -5,8 +5,6 @@ import Footer from '../components/footer';
 import utilStyles from '../styles/utils.module.css';
 import Layout from '../components/layout';
 
-
-
 export default function Pricing() {
   return (
     <>

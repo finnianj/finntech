@@ -13,6 +13,8 @@ export default function App({ Component, pageProps }){
         <meta property="og:image" content="/images/og-image.png" />
         <meta property="og:title" content="Finntech" />
         <meta property="og:description" content="Empowering Your Future" />
+        {/* preload /images/future.png */}
+        <link rel="preload" href="/images/future.png" as="image" />
       </Head>
       <Component {...pageProps}/>
     </>
